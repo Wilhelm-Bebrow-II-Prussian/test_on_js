@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Document</title>
+</head>
+	<style type="text/css">
+		.vopr-1{
+			height: 800px;
+			width: 1000px;
+			background: red;
+			margin-left: auto;
+			margin-right: auto;
+			border-radius: 40px;
+		}
+
+		.vopr-2{
+			height: 800px;
+			width: 1000px;
+			background: red;
+			margin-left: auto;
+			margin-right: auto;
+			border-radius: 40px;
+			display: none;
+		}
+
+		.vopr-3{
+			height: 800px;
+			width: 1000px;
+			background: red;
+			margin-left: auto;
+			margin-right: auto;
+			border-radius: 40px;
+			display: none;
+		}
+
+
+
+		.otv{
+			height: 100px; 
+			width: 200px;
+			background: green;
+			margin-left: 10px;
+			border-radius: 10px;
+		}
+
+		.img{
+			height: 100%;
+			width: 100%;
+		}
+	</style>
+<body>
+
+
+
+
+<div class="vopr-1">
+			
+		<div style="margin-left: 100px; margin-right: 100px;"><img src="csgo.jpg" class="img"></div>
+
+			<div style="display: flex; margin-left: 200px;">
+	<div class="otv click-1-1"><h1>Bubble Kvas</h1></div>
+	<div class="otv click-1-2"><h1>CS:GO</h1></div>
+	<div class="otv click-1-3"><h1>Dota 2</h1></div>
+		   </div>
+</div>
+
+
+
+
+
+
+<div class="vopr-2">
+	<div style="margin-left: 100px; margin-right: 100px;"><img src="ssg.jpg" class="img"></div>
+
+		<div style="display: flex;margin-left: 200px;">
+	<div class="otv click-2-1"><h1>Desert Eagle</h1></div>
+	<div class="otv click-2-2"><h1>SSG</h1></div>
+	<div class="otv click-2-3"><h1>AWP</h1></div>
+		</div>
+</div>
+
+
+
+
+
+
+<div class="vopr-3">
+	<div style="margin-left: 100px; margin-right: 100px;"><img src="maxresdefault.jpg" class="img"></div>
+
+		<div style="display: flex; margin-left: 200px;">
+	<div class="otv click-3-1"><h1>Terraria</h1></div>
+	<div class="otv click-3-2"><h1>Don't Starve</h1></div>
+	<div class="otv click-3-3"><h1>Minecraft</h1></div>
+		</div>
+</div>
+
+
+
+
+	<script>
+		document.querySelector(".click-1-1").onclick = function(){
+			alert("Непрваильно, попробуй еще. раз!");
+		}
+
+
+		document.querySelector(".click-1-2").onclick = function(){
+			alert("Молодчинка!");
+			document.querySelector(".vopr-1").style.display = "none";
+			document.querySelector(".vopr-2").style.display = "block";
+			}
+
+
+		document.querySelector(".click-1-3").onclick = function(){
+			alert("Непрваильно, попробуй еще. раз!");
+		}
+
+
+
+
+
+
+		document.querySelector(".click-2-1").onclick = function(){
+			alert("Непрваильно, попробуй еще. раз!");
+		}
+
+
+		document.querySelector(".click-2-2").onclick = function(){
+			alert("Молодчинка!");
+			document.querySelector(".vopr-2").style.display = "none";
+			document.querySelector(".vopr-3").style.display = "block";
+			}
+
+
+		document.querySelector(".click-2-3").onclick = function(){
+			alert("Непрваильно, попробуй еще. раз!");
+		}
+
+
+
+
+		document.querySelector(".click-3-1").onclick = function(){
+			alert("Непрваильно, попробуй еще. раз!");
+		}
+
+
+		document.querySelector(".click-3-3").onclick = function(){
+			alert("Молодчинка!");
+			}
+
+
+		document.querySelector(".click-3-2").onclick = function(){
+			alert("Непрваильно, попробуй еще. раз!");
+		}
+	</script>
+</body>
+</html>
